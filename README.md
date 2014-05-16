@@ -1,7 +1,6 @@
 # Central Authentication Service (CAS)
 
 <http://www.jasig.org/cas>
-나름 잘 나가는 일인
 
 ## Introduction
 
