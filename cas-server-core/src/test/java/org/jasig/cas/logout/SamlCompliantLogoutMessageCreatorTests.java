@@ -56,6 +56,6 @@ public class SamlCompliantLogoutMessageCreatorTests {
         final NodeList list = document.getDocumentElement().getElementsByTagName("samlp:SessionIndex");
         assertEquals(list.getLength(), 1);
         
-        assertEquals(list.item(0).getTextContent(), request.getTicketId());
+        assertEquals(list.item(0).getNodeValue(), request.getTicketId());
     }
 }
